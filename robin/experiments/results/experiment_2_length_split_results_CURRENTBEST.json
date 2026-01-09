@@ -1,0 +1,130 @@
+{
+    "('source_length', '4', 'with_oracle')": [
+        1.0,
+        0.965
+    ],
+    "('source_length', '4', 'without_oracle')": [
+        0.125,
+        0.93
+    ],
+    "('source_length', '6', 'with_oracle')": [
+        0.0859375,
+        0.7737379807692307
+    ],
+    "('source_length', '6', 'without_oracle')": [
+        0.0,
+        0.5802283653846154
+    ],
+    "('source_length', '7', 'with_oracle')": [
+        0.3003472222222222,
+        0.783687586204947
+    ],
+    "('source_length', '7', 'without_oracle')": [
+        0.0,
+        0.6386442293560348
+    ],
+    "('source_length', '8', 'with_oracle')": [
+        0.5104166666666666,
+        0.8475505771554332
+    ],
+    "('source_length', '8', 'without_oracle')": [
+        0.10221354166666667,
+        0.7420813124377125
+    ],
+    "('source_length', '9', 'with_oracle')": [
+        0.3714114832535885,
+        0.8679355692658929
+    ],
+    "('source_length', '9', 'without_oracle')": [
+        0.03588516746411483,
+        0.7735332058598285
+    ],
+    "('target_length', '24', 'with_oracle')": [
+        0.8720238095238095,
+        0.9666666666666667
+    ],
+    "('target_length', '24', 'without_oracle')": [
+        0.43452380952380953,
+        0.9432142857142858
+    ],
+    "('target_length', '25', 'with_oracle')": [
+        0.23883928571428573,
+        0.8593750000000001
+    ],
+    "('target_length', '25', 'without_oracle')": [
+        0.05357142857142857,
+        0.7058722527472526
+    ],
+    "('target_length', '26', 'with_oracle')": [
+        0.298828125,
+        0.7848668981481481
+    ],
+    "('target_length', '26', 'without_oracle')": [
+        0.0,
+        0.6319444444444448
+    ],
+    "('target_length', '27', 'with_oracle')": [
+        0.27455357142857145,
+        0.7770248724489796
+    ],
+    "('target_length', '27', 'without_oracle')": [
+        0.0,
+        0.6107302295918366
+    ],
+    "('target_length', '28', 'with_oracle')": [
+        0.3950892857142857,
+        0.8150400246305419
+    ],
+    "('target_length', '28', 'without_oracle')": [
+        0.008928571428571428,
+        0.7107450738916256
+    ],
+    "('target_length', '30', 'with_oracle')": [
+        0.3871527777777778,
+        0.8352374551971327
+    ],
+    "('target_length', '30', 'without_oracle')": [
+        0.020833333333333332,
+        0.7128136200716847
+    ],
+    "('target_length', '32', 'with_oracle')": [
+        0.5915178571428571,
+        0.8758116883116882
+    ],
+    "('target_length', '32', 'without_oracle')": [
+        0.04241071428571429,
+        0.8003923160173159
+    ],
+    "('target_length', '33', 'with_oracle')": [
+        0.4296875,
+        0.8363970588235294
+    ],
+    "('target_length', '33', 'without_oracle')": [
+        0.03125,
+        0.7224264705882353
+    ],
+    "('target_length', '36', 'with_oracle')": [
+        0.0,
+        0.8103885135135135
+    ],
+    "('target_length', '36', 'without_oracle')": [
+        0.0,
+        0.6891891891891893
+    ],
+    "('target_length', '40', 'with_oracle')": [
+        0.5078125,
+        0.9142530487804876
+    ],
+    "('target_length', '40', 'without_oracle')": [
+        0.01953125,
+        0.9010099085365855
+    ],
+    "('target_length', '48', 'with_oracle')": [
+        0.125,
+        0.881218112244898
+    ],
+    "('target_length', '48', 'without_oracle')": [
+        0.0,
+        0.8746811224489797
+    ]
+}
