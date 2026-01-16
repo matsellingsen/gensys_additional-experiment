@@ -1,0 +1,595 @@
+{
+    "experiment": "GPT2_Length",
+    "description": "GPT-2 Fine-tuning: Length split with oracle and without oracle evaluation",
+    "timestamp": "130120261511",
+    "results": {
+        "source_length": {
+            "without_oracle": {
+                "8": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.28684436103055894
+                        ],
+                        "mean": 0.28684436103055894,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "9": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.2501407703142153
+                        ],
+                        "mean": 0.2501407703142153,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "4": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.3333333333333333
+                        ],
+                        "mean": 0.3333333333333333,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "7": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.31491611269389047
+                        ],
+                        "mean": 0.31491611269389047,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "6": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.34
+                        ],
+                        "mean": 0.34,
+                        "std": null,
+                        "sem": null
+                    }
+                }
+            },
+            "with_oracle": {
+                "8": {
+                    "seq": {
+                        "runs": [
+                            0.09375
+                        ],
+                        "mean": 0.09375,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.7209591331580264
+                        ],
+                        "mean": 0.7209591331580264,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "9": {
+                    "seq": {
+                        "runs": [
+                            0.10047846889952153
+                        ],
+                        "mean": 0.10047846889952153,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.6838208770894177
+                        ],
+                        "mean": 0.6838208770894177,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "4": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.75
+                        ],
+                        "mean": 0.75,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "7": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.6785884575815131
+                        ],
+                        "mean": 0.6785884575815131,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "6": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.7046874999999999
+                        ],
+                        "mean": 0.7046874999999999,
+                        "std": null,
+                        "sem": null
+                    }
+                }
+            }
+        },
+        "target_length": {
+            "without_oracle": {
+                "24": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.3283730158730159
+                        ],
+                        "mean": 0.3283730158730159,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "25": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.3257142857142857
+                        ],
+                        "mean": 0.3257142857142857,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "26": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.31024639423076916
+                        ],
+                        "mean": 0.31024639423076916,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "27": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.29993386243386244
+                        ],
+                        "mean": 0.29993386243386244,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "28": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.2804528061224489
+                        ],
+                        "mean": 0.2804528061224489,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "30": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.264525462962963
+                        ],
+                        "mean": 0.264525462962963,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "32": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.24776785714285715
+                        ],
+                        "mean": 0.24776785714285715,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "33": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.24242424242424232
+                        ],
+                        "mean": 0.24242424242424232,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "36": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.20833333333333331
+                        ],
+                        "mean": 0.20833333333333331,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "40": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.20000000000000004
+                        ],
+                        "mean": 0.20000000000000004,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "48": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.16666666666666663
+                        ],
+                        "mean": 0.16666666666666663,
+                        "std": null,
+                        "sem": null
+                    }
+                }
+            },
+            "with_oracle": {
+                "24": {
+                    "seq": {
+                        "runs": [
+                            0.42857142857142855
+                        ],
+                        "mean": 0.42857142857142855,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.9241071428571429
+                        ],
+                        "mean": 0.9241071428571429,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "25": {
+                    "seq": {
+                        "runs": [
+                            0.37276785714285715
+                        ],
+                        "mean": 0.37276785714285715,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.8550892857142857
+                        ],
+                        "mean": 0.8550892857142857,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "26": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.6785606971153846
+                        ],
+                        "mean": 0.6785606971153846,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "27": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.6612103174603176
+                        ],
+                        "mean": 0.6612103174603176,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "28": {
+                    "seq": {
+                        "runs": [
+                            0.002232142857142857
+                        ],
+                        "mean": 0.002232142857142857,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.688376913265306
+                        ],
+                        "mean": 0.688376913265306,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "30": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.6824652777777778
+                        ],
+                        "mean": 0.6824652777777778,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "32": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.6625279017857143
+                        ],
+                        "mean": 0.6625279017857143,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "33": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.6418087121212122
+                        ],
+                        "mean": 0.6418087121212122,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "36": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.66015625
+                        ],
+                        "mean": 0.66015625,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "40": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.5550781250000001
+                        ],
+                        "mean": 0.5550781250000001,
+                        "std": null,
+                        "sem": null
+                    }
+                },
+                "48": {
+                    "seq": {
+                        "runs": [
+                            0.0
+                        ],
+                        "mean": 0.0,
+                        "std": null,
+                        "sem": null
+                    },
+                    "tok": {
+                        "runs": [
+                            0.4189453125
+                        ],
+                        "mean": 0.4189453125,
+                        "std": null,
+                        "sem": null
+                    }
+                }
+            }
+        }
+    }
+}
